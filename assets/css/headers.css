@@ -1,0 +1,26 @@
+/*********** header da página ************/
+
+.header-page {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /* posiciona pelo centro*/
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+/*só aplica aos filhos diretos*/
+.header-menu ul {
+    display: flex;
+    /* espaçamento entre os links*/
+    gap: 20px;
+}
+
+.header-menu a {
+    color: #fff;
+}

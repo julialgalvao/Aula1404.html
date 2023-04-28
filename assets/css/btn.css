@@ -1,0 +1,23 @@
+.btn {
+    border: 2px solid #802335;
+    /*5 para cima, e 30 direita e esquerda*/
+    padding: 5px 30px;
+    /*fazer o botão arredondado*/
+    border-radius: 70px;
+    background-color: #802335;
+    font-size: 18px;
+    /*deixa a letra mais grossa*/
+    font-weight: 900;
+    /*muda o espaçamento*/
+    letter-spacing: 1px;
+    /*controla a transição do botão para o hover(milisegundos)*/
+    /*deve ser colocado dentro do btn para que entre e saia o efeito do botão*/
+    transition: .5s;
+}
+
+/*uma pseudo classe (quando o ponteiro está sobre o botão)*/ 
+.btn:hover {
+    background-color: transparent;
+    color: #802335;
+
+}
